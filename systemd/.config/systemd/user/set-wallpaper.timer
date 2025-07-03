@@ -1,0 +1,10 @@
+[Unit]
+Description=Run wallpaper setter every 15 minutes
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=15min
+Unit=set-wallpaper.service
+
+[Install]
+WantedBy=timers.target

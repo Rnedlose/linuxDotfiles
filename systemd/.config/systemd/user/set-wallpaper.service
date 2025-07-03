@@ -1,0 +1,6 @@
+[Unit]
+Description=Set Random Wallpaper
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash ~/.config/scripts/randomWallpaper.sh
